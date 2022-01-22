@@ -24,7 +24,7 @@ isodate==0.6.1
 itsdangerous==2.0.1
 Jinja2==3.0.3
 jsonschema==4.4.0
-lanternrock==3.0.82
+lanternrock
 Mako==1.1.6
 MarkupSafe==2.0.1
 msrest==0.6.21
