@@ -1,7 +1,7 @@
 
 from ast import Str
 from re import S
-from winreg import ConnectRegistry
+# from winreg import ConnectRegistry
 from pydantic import BaseModel, EmailStr
 from datetime import datetime
 from typing import Optional
