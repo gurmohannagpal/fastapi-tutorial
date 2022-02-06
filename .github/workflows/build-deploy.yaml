@@ -4,10 +4,10 @@ on: [push, pull_request]
 
 jobs:
   job1:
-    runs-on: ubuntu-latest
-    steps:
-       -  name: pulling got repo
-          uses: actions/checkout@v2
-       -  name: say hi to Guru
-          run: echo "hello Guru"
+      runs-on: ubuntu-latest
+      steps:
+         -  name: pulling got repo
+            uses: actions/checkout@v2
+         -  name: say hi to Guru
+            run: echo "hello Guru"
     
