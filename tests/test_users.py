@@ -8,7 +8,7 @@ from app.config import settings
 def test_root(client):
     res = client.get("/")
     print(res.json().get("message"))
-    assert res.json().get("message") == 'Welcome to API!!!**'
+    assert res.json().get("message") == 'Hello World from ubuntu server'
     assert res.status_code == 200
 
 def test_create_user(client):
